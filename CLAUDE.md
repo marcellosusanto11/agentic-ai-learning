@@ -26,7 +26,7 @@ All code lives in `code/` as Jupyter notebooks. There are no standalone Python m
 | `main_crash_course_youtube.ipynb` | Agent fundamentals, RAG, tools, image input | Gemini + Claude | LangChain, FAISS |
 | `main_course_prompt_eng.ipynb` | Prompt engineering tactics, few-shot, chain-of-thought | Claude Haiku | LangChain |
 | `main_course_ai_agent_in_langgraph.ipynb` | LangGraph StateGraph, human-in-the-loop, multi-node agents | Claude Haiku | LangGraph, Tavily |
-| `main_llm_agent_memory.ipynb` | Persistent agent memory, ChromaDB, Google Sheets/Gmail integration | Claude Haiku | LangGraph, ChromaDB, Google APIs |
+| `main_llm_essay_maker.ipynb` | EssayMaker agent — plan/research/generate/reflect pipeline with research memory + user preference learning | Claude Haiku | LangGraph, ChromaDB, Tavily |
 
 ### Common patterns across notebooks
 - Agent creation via `langchain.agents.create_agent` wrapper or manual `langgraph.graph.StateGraph`
